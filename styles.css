@@ -27,14 +27,14 @@ nav {
     box-sizing: border-box;
     background-color: rgb(129, 111, 139);
     text-align: center;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 1px;
     margin-right:1px;
-    padding-top: 0px;
+    padding-top: 1px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 
 /* Styles for the <main> section */
@@ -87,6 +87,40 @@ aside {
 /* Class Selector */
 .needs-fit {
     margin-top: 0px;
+}
+.specific   {
+    background-color: rgba(34, 189, 189, 0.26);
+    display: block;
+    width: 1000px;
+    height: 800px;
+}
+.home   {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: -100px;
+}
+.test   {
+    background-color: #896e99b0;
+    display: inline-block;
+    width: 400px;
+    height: 390px;
+    margin-top:-810px;
+    margin-bottom: -100px;
+    margin-left: 1007px;
+    margin-right:1px;
+}
+.test2   {
+    background-color: #db6736b0;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top:-410px;
+    margin-bottom: -100px;
+    margin-left: 1007px;
+    margin-right:1px;
+}
+.about  {
+    background-color: chocolate;
 }
 /*.container {
     display: flex;
@@ -141,7 +175,7 @@ aside {
     border-color: #333;
 }
 #main-description   {
-    background-color: #7c4f96;
+    background-color: #a73bea;
     width: 1407px;
     text-align: center;
     font-size: large;
@@ -150,6 +184,34 @@ aside {
     margin-top: -25px;
     margin-bottom: -15px;
 }
+#gallery1   {
+        display: block;  
+        height: 620px;
+        width: 500px;
+        margin: 100px 200px -200px 100px;
+        padding: 10px 10px 10px 10px;
+}
+ #gallery2   {
+        display: block;  
+        height: 500px;
+        width: 500px;
+        margin: 200px 200px -200px 100px;
+        padding: 10px 10px 10px 10px;
+ }
+#gallery3   {
+        display: block;  
+        height: 620px;
+        width: 500px;
+        margin: -1005px 200px -200px 300px;
+        padding: 10px 10px 10px 10px;
+}
+ #gallery4   {
+        display: block;  
+        height: 620px;
+        width: 500px;
+        margin: 200px 200px -200px 300px;
+        padding: 10px 10px 10px 10px;
+ }
 /* Grouping Selectors */
 h2 {
     display: inline-block;
